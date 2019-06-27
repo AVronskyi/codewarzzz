@@ -17,9 +17,17 @@ function updateLight(current) {
      return 'green';
    }
  }
+ ```
  ```javascript
  function switchItUp(number){
    var words = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];
    return words[number];
+ }
+ ```
+ ```javascript
+ function greet(name){
+   if(name === "Johnny") {
+     return "Hello, my love!";
+     } else return "Hello, " + name + "!";
  }
  ```

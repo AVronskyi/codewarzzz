@@ -41,4 +41,14 @@ function updateLight(current) {
    return res;
  }
  ```
+ *Reverse List Order
+ ```javascript
+ function reverseList(list) {
+   let a = [];
+   for (let i = list.length -1; i >= 0; i--){
+   a.push(list[i]); 
+   }
+   return a
+ }
+ ```
  

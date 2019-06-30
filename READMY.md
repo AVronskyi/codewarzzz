@@ -43,7 +43,7 @@ function updateLight(current) {
  ```
  *Reverse List Order
  ```javascript
- function reverseList(list) {
+ function reverseList(list) {л
    let a = [];
    for (let i = list.length -1; i >= 0; i--){
    a.push(list[i]); 

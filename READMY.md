@@ -51,4 +51,4 @@ function updateLight(current) {
    return a
  }
  ```
- 
+ *new solution

@@ -62,3 +62,15 @@ function solution(str){
   return rev;
 }
 ```
+```javascript
+function reverseNumber(n) {
+  if (n >= 0) {
+  let rn = n.toString().split('').reverse();
+  return +(rn.join(''));
+  } else {
+  n = n * (-1);
+  let rn = n.toString().split('').reverse();
+  return (-1) * (+(rn.join('')));
+  }
+}
+```

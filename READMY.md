@@ -74,3 +74,11 @@ function reverseNumber(n) {
   }
 }
 ```
+*
+```javascript
+function toBinary(n){
+  return +n.toString(2);
+}
+```
+
+

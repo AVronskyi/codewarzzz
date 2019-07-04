@@ -81,5 +81,24 @@ function toBinary(n){
 }
 ```
 add new text
-
+ ```javascript
+ function reverseList(list) {
+   let a = [];
+   for (let i = list.length -1; i >= 0; i--){
+   a.push(list[i]);
+   }
+   return a
+ }
+ ```
+ *new solution
+ '''
+'''javascript
+function solution(str){
+  let rev = '';
+  for (let i = str.length -1; i >= 0; i--){
+  rev = rev + str[i];
+  }
+  return rev;
+}
+```
 

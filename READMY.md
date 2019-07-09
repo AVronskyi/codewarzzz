@@ -117,3 +117,7 @@ function repeatStr (n, s) {
 }
 ```
 ```javascript
+function isDivideBy(num, a, b) {
+  return num % a === 0 && num % b === 0;
+}
+```

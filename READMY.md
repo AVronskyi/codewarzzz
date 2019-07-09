@@ -111,3 +111,9 @@ function typeOfSum(a, b) {
   return typeof (a + b);// good luck
 }
 ```
+```javascript
+function repeatStr (n, s) {
+  return s.repeat(n);
+}
+```
+```javascript

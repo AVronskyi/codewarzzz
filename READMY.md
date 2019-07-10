@@ -121,3 +121,14 @@ function isDivideBy(num, a, b) {
   return num % a === 0 && num % b === 0;
 }
 ```
+```javascript
+function nthEven(n){
+/*  let res = 0;
+  let j = 0;
+  for(let i = 1; i<n; i++){
+    j += 2;
+  }
+  return j;*/
+  return n*2-2;
+}
+```

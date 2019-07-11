@@ -162,3 +162,4 @@ function averageString(str) {
     return arr[avg];
 
 }
+```

@@ -163,3 +163,4 @@ function averageString(str) {
 
 }
 ```
+```javascript

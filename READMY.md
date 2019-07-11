@@ -147,3 +147,18 @@ function greet (name, owner) {
   return name === owner ? 'Hello boss' :   'Hello guest';
 }
 ```
+```javascript
+function averageString(str) {
+  if (str === '') return 'n/a';
+  let arr = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+  let arrStr = str.split(' ');
+  let sum = 0;
+    for (let i = 0; i < arrStr.length; i++) {
+      sum +=arr.indexOf(arrStr[i]);
+      if(arrStr[i] === '' || !arr.includes(arrStr[i])) return 'n/a';
+    }
+    let avg = Math.floor(sum / arrStr.length);
+
+    return arr[avg];
+
+}

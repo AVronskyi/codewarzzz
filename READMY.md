@@ -1,12 +1,12 @@
 hello
  ===
- *https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/javascript
+ https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/javascript
  ```javascript
  function chromosomeCheck(sperm) {
    return sperm == 'XY' ? "Congratulations! You're going to have a son.": "Congratulations! You're going to have a daughter."
  }
  ```
-*https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/train/javascript
+https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/train/javascript
 ```javascript
 function updateLight(current) {
    if (current === 'green') {
@@ -31,7 +31,7 @@ function updateLight(current) {
      } else return "Hello, " + name + "!";
  }
  ```
- *www.codewars.com
+ www.codewars.com
  ```javascript
  function spongeMeme(sentence) {
    let res = '';
@@ -41,7 +41,7 @@ function updateLight(current) {
    return res;
  }
  ```
- *Reverse List Order
+ Reverse List Order
  ```javascript
  function reverseList(list) {
    let a = [];
@@ -51,7 +51,7 @@ function updateLight(current) {
    return a
  }
  ```
- *new solution
+ new solution
  '''
 '''javascript
 function solution(str){
@@ -74,7 +74,7 @@ function reverseNumber(n) {
   }
 }
 ```
-*
+
 ```javascript
 function toBinary(n){
   return +n.toString(2);
@@ -90,7 +90,7 @@ add new text
    return a
  }
  ```
- *new solution
+new solution
  '''
 '''javascript
 function solution(str){

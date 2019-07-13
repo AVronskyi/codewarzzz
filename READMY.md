@@ -181,3 +181,17 @@ function palindrome(num) {
 }
 ```
 ```javascript
+function explode(x){
+  let res = [];
+  let score = 0;
+
+  for(let i = 0; i<x.length; i++){
+    if (+x[i]) score += x[i];
+  }
+  if (score === 0) return 'Void!';
+  for(let i = score; i>0; i--){
+    res.push(x);
+  }
+  console.log(score);
+  return res;
+}

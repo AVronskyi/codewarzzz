@@ -208,3 +208,4 @@ function crap(x, b, c){
   const cC = str.split('@').length -1;
   return b * c >= cC ? 'Clean': 'Cr@p';
 }
+```

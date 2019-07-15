@@ -202,3 +202,9 @@ function isDivideBy(num, a, b) {
 }
 ```
 ```javascript
+function crap(x, b, c){
+  const str = x.toString();
+  if(str.includes('D')) return 'Dog!!';
+  const cC = str.split('@').length -1;
+  return b * c >= cC ? 'Clean': 'Cr@p';
+}

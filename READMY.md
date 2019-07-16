@@ -215,4 +215,7 @@ function take(arr, n) {
 }
 ```
 ```javascript
+function reverseWords(str){
+  return str.split(' ').reverse().join(' '); // reverse those words
+}
 ```

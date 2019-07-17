@@ -219,3 +219,7 @@ function reverseWords(str){
   return str.split(' ').reverse().join(' '); // reverse those words
 }
 ```
+
+function check(a,x){
+  return a.includes(x);
+}

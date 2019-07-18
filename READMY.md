@@ -229,3 +229,10 @@ const isReallyNaN = (val) => {
   // return isNaN(val);  // wasn't working as planned :-(
   return Number.isNaN(val);
 };
+function accum(s) {
+	let res = '';
+  for(let i = 0; i<s.length; i++){
+    res += s[i].toUpperCase() + s[i].toLowerCase().repeat(i) + (i<s.length - 1 ? '-' : '')
+  }
+  return res;
+}

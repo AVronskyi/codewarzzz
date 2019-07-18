@@ -229,6 +229,7 @@ const isReallyNaN = (val) => {
   // return isNaN(val);  // wasn't working as planned :-(
   return Number.isNaN(val);
 };
+```
 ```javascript
 function accum(s) {
 	let res = '';
@@ -237,3 +238,4 @@ function accum(s) {
   }
   return res;
 }
+```

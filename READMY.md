@@ -236,4 +236,3 @@ function accum(s) {
   }
   return res;
 }
-```

@@ -4,7 +4,6 @@
    return sperm == 'XY' ? "Congratulations! You're going to have a son.": "Congratulations! You're going to have a daughter."
  }
  ```
-https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/train/javascript
 ```javascript
 function updateLight(current) {
    if (current === 'green') {
@@ -236,3 +235,4 @@ function accum(s) {
   }
   return res;
 }
+```

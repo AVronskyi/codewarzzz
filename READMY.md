@@ -1,4 +1,3 @@
-hello
  ===
  https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes/train/javascript
  ```javascript

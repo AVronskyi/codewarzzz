@@ -15,9 +15,6 @@ function updateLight(current) {
    }
  }
  ```
- 1
- 2
- 3
  ```javascript
  function switchItUp(number){
    var words = ['Zero', 'One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine'];

@@ -5,6 +5,7 @@
  }
  ```
  1
+ 2
 ```javascript
 function updateLight(current) {
    if (current === 'green') {

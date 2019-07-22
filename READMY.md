@@ -237,3 +237,31 @@ function accum(s) {
 }
 ```
 ```javascript
+const whosOnline = (fr) => {
+  let obj = {};
+  for(let i = 0; i < fr.length; i++){
+    if (fr[i].status === 'online' && fr[i].lastActivity <= 10){
+      if (!obj.online){
+        obj.online = [];
+      }
+      obj.online.push(fr[i].username);
+    }
+    if (fr[i].status === 'offline'){
+      if (!obj.offline){
+        obj.offline = [];
+      }
+      obj.offline.push(fr[i].username);
+    }
+    if (fr[i].status === 'online' && fr[i].lastActivity > 10){
+      if (!obj.away){
+        obj.away = [];
+      }
+      obj.away.push(fr[i].username);
+    }
+  }
+  return obj;
+}```
+4
+3
+2
+1

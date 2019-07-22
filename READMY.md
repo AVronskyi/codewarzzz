@@ -261,5 +261,4 @@ const whosOnline = (fr) => {
   }
   return obj;
 }```
-2
 1

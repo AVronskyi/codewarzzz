@@ -263,4 +263,3 @@ const whosOnline = (fr) => {
 }
 ```
 ```javascript
-1

@@ -262,6 +262,7 @@ const whosOnline = (fr) => {
   return obj;
 }
 ```
+```javascript
 function greet(lan) {
 let obj = {
 english: 'Welcome',

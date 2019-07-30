@@ -286,3 +286,4 @@ welsh: 'Croeso'
 return obj[lan] === undefined ? 'Welcome' : obj[lan];
 }
 ```
+```javascript

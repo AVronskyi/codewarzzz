@@ -288,4 +288,4 @@ return obj[lan] === undefined ? 'Welcome' : obj[lan];
 ```
 ```javascript
 1
-
+2

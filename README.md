@@ -290,4 +290,3 @@ return obj[lan] === undefined ? 'Welcome' : obj[lan];
 1
 2
 3
-4
